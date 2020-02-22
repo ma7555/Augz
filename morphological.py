@@ -15,7 +15,7 @@ def dilate(img):
     img = cv2.dilate(img, get_random_kernel(), iterations=1)
     return img
 
-def open(img):
+def open_(img):
     img = cv2.morphologyEx(img, cv2.MORPH_OPEN, get_random_kernel())
     return img
 
