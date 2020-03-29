@@ -11,7 +11,10 @@ Image augmentations for images [Keras]
   
 # Requirments:
   > Numpy
+  
   > OpenCV
+  
   > Albumentations
+  
   > PIL
   
